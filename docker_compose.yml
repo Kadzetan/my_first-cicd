@@ -1,6 +1,6 @@
 services:
   app:
-    image: ghcr.io/<twój-login>/<nazwa-repozytorium>:latest  # Obraz pobrany z GitHub Container Registry
+    image: ghcr.io/kadzetan/my_first-cicd:latest  # Obraz pobrany z GitHub Container Registry
     ports:
       - "80:80"                        # Mapowanie portu hosta na port kontenera
     environment:
